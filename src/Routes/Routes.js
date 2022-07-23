@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 const Home = lazy(() => import("Pages/Home"));
 const ExerciseDetail = lazy(() => import("Pages/ExerciseDetail"));
-const Error = lazy(() => import("Pages/Error"));
+const Error = lazy(() => import("../Pages/Error"));
 
 export const routes = {
   HOME: "/",
