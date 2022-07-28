@@ -19,7 +19,37 @@ const SearchExercises = () => {
         >
           Awesome Exercises You <br /> Should Know
         </Typography>
-       
+        <Box position="relative" mb="72px">
+          <TextField
+            height="76px"
+            sx={{
+              input: { fontWeight: "700", border: "none", borderRadius: "4px" },
+              width: { lg: "1170px", xs: "350px" },
+              backgroundColor: "#fff",
+              borderRadius: "40px",
+            }}
+            value={search}
+            onChange={handleChange}
+            placeholder="Search Exercises"
+            type="text"
+          />
+          <Button
+            className="search-btn"
+            sx={{
+              bgcolor: "#FF2625",
+              color: "#fff",
+              textTransform: "none",
+              width: { lg: "173px", xs: "80px" },
+              height: "56px",
+              position: "absolute",
+              right: "0px",
+              fontSize: { lg: "20px", xs: "14px" },
+            }}
+            // onClick={handleSearch}
+          >
+            Search
+          </Button>
+        </Box>
       </Stack>
     </>
   );
