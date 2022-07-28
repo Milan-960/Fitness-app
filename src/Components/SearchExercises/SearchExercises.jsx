@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 
 const SearchExercises = () => {
+  const [search, setSearch] = useState("");
+
+  function handleChange(event) {
+    setSearch(event.target.value.toLowerCase());
+  }
 
   return (
     <>
