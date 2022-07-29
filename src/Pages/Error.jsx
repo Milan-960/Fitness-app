@@ -10,7 +10,7 @@ function Error() {
           backgroundColor="rgba(0,0,0,1)"
         >
           <h1>404</h1>
-          <h2 style={{ maxWidth: "100vw" }}>Page Not Found</h2>
+          <h2 style={{ maxWidth: "100vw" }}>Page Not Found!!</h2>
         </MatrixParallax>
       </React.Fragment>
     </>
