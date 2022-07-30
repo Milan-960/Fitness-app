@@ -1,17 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
-
 import Logo from 'assets/images/Logo.png';
-import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 const Navbar = () => {
-  
-   const { i18n } = useTranslation();
-
-    const changeLanguageHandler = (lang) => {
-        i18n.changeLanguage(lang);
-    }
   
 return(
   <>
@@ -28,13 +21,7 @@ return(
     >
       <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
-       <select
-            value={i18n.language}
-            onChange={changeLanguageHandler}
-          >
-            <option value="en">English</option>
-            <option value="sp">Spanish</option>
-        </select>
+      <LanguageSwitcher />
     </Stack>
   </Stack>
   </>
