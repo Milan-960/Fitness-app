@@ -1,3 +1,3 @@
 export const TRANSLATIONS_EN = {
-  welcome: "Welcome to the tutorial",
+  Exercises: "Awesome Exercises You Should Know",
 };

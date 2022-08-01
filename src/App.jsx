@@ -6,11 +6,9 @@ import BaseRoutes from "Routes/BaseRoutes";
 import Navbar from "Components/Navbar/Navbar";
 import Footer from "Components/Footer/Footer";
 
-
 import "./App.css";
 
 function App() {
-
   return (
     <>
       <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">

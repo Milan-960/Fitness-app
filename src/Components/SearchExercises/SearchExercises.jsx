@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import "i18n/i18n";
 
 const SearchExercises = () => {
   const [search, setSearch] = useState("");
+  const { t } = useTranslation();
 
   function handleChange(event) {
     setSearch(event.target.value.toLowerCase());
@@ -17,7 +20,7 @@ const SearchExercises = () => {
           mb="49px"
           textAlign="center"
         >
-          Awesome Exercises You <br /> Should Know
+          {t("Exercises")}
         </Typography>
         <Box position="relative" mb="72px">
           <TextField
