@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
 import Logo from 'assets/images/Logo.png';
 import LanguageSwitcher from "../LanguageSwitcher";
+import { useTranslation } from "react-i18next";
+import "i18n/i18n";
 
 const Navbar = () => {
+
+const { t } = useTranslation();
   
 return(
   <>
@@ -19,7 +23,7 @@ return(
       fontSize="24px"
       alignItems="flex-end"
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
+      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>{t("Home")}</Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
       <LanguageSwitcher />
     </Stack>
