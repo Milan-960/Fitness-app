@@ -3,9 +3,9 @@ import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import "i18n/i18n";
 import { exerciseOptions, fetchData } from "Util/fetchData";
+import HorizontalScrollbar  from "Components/HorizontalScrollbar/HorizontalScrollbar";
 
-
-const SearchExercises = () => {
+const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState("");
   const [bodyParts, setBodyParts] = useState([]);
 
