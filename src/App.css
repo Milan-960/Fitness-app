@@ -1,13 +1,12 @@
 body {
-  font-family: 'Josefin Sans';
-  background-color: #FFFAFB;
+  font-family: "Josefin Sans";
+  background-color: #fffafb;
 }
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-
 }
 
 ::-webkit-scrollbar {
@@ -23,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FF2625;
+  color: #ff2625;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -60,14 +59,13 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -330px;
-
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #FF2625;
+  border-top: 4px solid #ff2625;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -93,8 +91,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #FF2625 !important;
-  border: 1px solid #FF2625 !important;
+  color: #ff2625 !important;
+  border: 1px solid #ff2625 !important;
 }
 
 .exercise-video {
@@ -106,12 +104,11 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
     height: 300px;
   }
-
 
   .react-horizontal-scrolling-menu--scroll-container {
     width: 500px;
@@ -134,10 +131,9 @@ body {
     width: 320px;
     height: 300px;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .exercise-card {
     width: 280px;
   }
