@@ -1,5 +1,6 @@
 export const TRANSLATIONS_EN = {
   Home: "Home",
+  Exercises: "Exercises",
   Exercises: "Awesome Exercises You Should Know",
   HomePageSlogan: "Sweat, Smile And Repeat",
   Homepage: "Check out the most effective exercises personalized to you",
