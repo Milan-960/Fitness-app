@@ -24,7 +24,7 @@ return(
       alignItems="flex-end"
     >
       <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>{t("Home")}</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
+      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>{t('Exercises')}</a>
       <LanguageSwitcher />
     </Stack>
   </Stack>
