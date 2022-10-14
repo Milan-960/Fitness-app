@@ -20,6 +20,7 @@ npm start
 REACT_APP_RAPID_API_KEY = "YOUR RapidAPI KEY"
 ESLINT_NO_DEV_ERRORS = true
 ```
+
 # Tech which I have Used
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -45,6 +46,7 @@ ESLINT_NO_DEV_ERRORS = true
 ## Live App
 
 - **[Watch Live Demo 🔥](https://milan-fitness-app.vercel.app/)**
+
 ## Author 😎
 
 - **[Milan Sachani](https://github.com/milan-960)**
